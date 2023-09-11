@@ -1,7 +1,6 @@
 
 module "this" {
   source  = "git::https://github.com/jon-butterworth/tf-module-null-label"
-  source  = "git::https://github.com/jon-butterworth/tf-module-null-label"
 
   enabled             = var.enabled
   namespace           = var.namespace
